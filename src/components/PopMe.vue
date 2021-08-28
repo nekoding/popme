@@ -63,6 +63,11 @@
         font-size: 60px;
     }
 
+    .main {
+        width: 100%;
+        height: 100%;
+    }
+
     .main img {
         position: absolute;
         z-index: 2;
@@ -75,7 +80,7 @@
         position: relative;
         z-index: 1;
         width: 100%;
-        height: 100%;
+        height: 100vh;
         object-fit: cover;
         box-sizing: border-box;
     }
