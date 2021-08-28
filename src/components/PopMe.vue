@@ -63,19 +63,25 @@
         font-size: 60px;
     }
 
+    .main {
+        width: 100%;
+        height: 100%;
+    }
+
     .main img {
         position: absolute;
         z-index: 2;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
+        max-width: 100%;
     }
     
     #images .bg {
         position: relative;
         z-index: 1;
         width: 100%;
-        height: 100%;
+        height: 100vh;
         object-fit: cover;
         box-sizing: border-box;
     }
